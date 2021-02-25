@@ -5187,7 +5187,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!4 &1262360303 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5656340806652089475, guid: e5c95641063b6d949b768acd81160a03,
@@ -5592,7 +5592,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1447001824}
   m_LocalRotation: {x: 0.48480964, y: -0, z: -0, w: 0.87461966}
-  m_LocalPosition: {x: 0, y: 11, z: 0}
+  m_LocalPosition: {x: 0, y: 14.43, z: -2.14}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1709566287}
@@ -7176,6 +7176,11 @@ PrefabInstance:
     - target: {fileID: 4528275218274797818, guid: addae777b00ad3f4ea0d2c3adc2e6c70,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4528275218723417283, guid: addae777b00ad3f4ea0d2c3adc2e6c70,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4528275219381155543, guid: addae777b00ad3f4ea0d2c3adc2e6c70,

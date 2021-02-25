@@ -8,7 +8,7 @@ public class PauseController : MonoBehaviour
     public GameObject panel;
     public GameObject setting;
     public GameObject miniMapCamera;
-    private bool isMiniMapActive = true;
+    private bool isMiniMapActive = false;
 
     void LateUpdate()
     {

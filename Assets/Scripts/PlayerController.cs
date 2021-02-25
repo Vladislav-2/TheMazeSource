@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -42,8 +43,14 @@ public class PlayerController : MonoBehaviour
     void UpdateCount(){
         counter.text = "Coins left: " + (countToWin - count).ToString();
         if (count == countToWin){
-          winner.text = "You win!";  
+          winner.text = "You win!";
+          LoadMenu();
 		}
+	}
+
+    public IEnumerator LoadMenu(){
+       yield return new WaitForSeconds(3f);
+       SceneManager.LoadScene("MainMenu");
 	}
 
     public void SetCount(int countInPast){
